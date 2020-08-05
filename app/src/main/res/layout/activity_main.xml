@@ -14,7 +14,7 @@
         android:background="@drawable/round_light_button"
         android:contentDescription="@string/circle_button_2"
         app:layout_constraintEnd_toStartOf="@+id/circle_button_2"
-        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_circle" />
@@ -36,20 +36,18 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="68dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
         android:background="@drawable/round_light_button"
         android:contentDescription="@string/circle_button_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/circle_button_2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_circle" />
 
     <TextView
         android:id="@+id/time_elapsed"
-        android:layout_width="343dp"
-        android:layout_height="43dp"
+        android:layout_width="280dp"
+        android:layout_height="44dp"
         android:gravity="center_horizontal"
         android:text="@string/time_elapsed"
         android:textAlignment="center"
@@ -69,15 +67,14 @@
         android:layout_marginTop="84dp"
         android:background="@drawable/round_start_button"
         android:text="@string/start_button"
-        android:textSize="30sp"
         android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/time_elapsed"
         app:layout_constraintVertical_bias="0.51" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
